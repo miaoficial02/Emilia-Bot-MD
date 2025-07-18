@@ -55,7 +55,7 @@ apt update && apt upgrade && pkg install -y git nodejs ffmpeg imagemagick yarn
 ```
 
 ```bash
-git clone https://github.com/miaoficial02/Sumi-Sakurasawa && cd Sumi-Sakurasawa
+git clone https://github.com/miaoficial02/Emilia-Bot-MD && cd Emilia-Bot-MD
 ```
 
 ```bash
@@ -83,7 +83,7 @@ npm start
 ❒ Abre Termux y navega al directorio del bot:
    
    ```bash
-    cd Sumi-Sakurasawa
+    cd Emilia-Bot-MD
    ```
 
 ❒ Inicia el bot nuevamente:
@@ -97,7 +97,7 @@ npm start
 > Si después de instalar el bot en Termux y iniciar la session del bot (deseas poner tu número es la lista de owner pon este comando:
 
    ```bash
-    cd Sumi-Sakurasawa && nano settings.js
+    cd Emilia-Bot-MD && nano settings.js
    ```
 
 </details>
