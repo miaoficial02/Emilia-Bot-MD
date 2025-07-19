@@ -39,9 +39,9 @@ const PORT = process.env.PORT || process.env.SERVER_PORT || 3000
 
 let { say } = cfonts
 
-console.log(chalk.bold.redBright(`\n✰ Iniciando Yuki-Suou-Bot ✰\n`))
+console.log(chalk.bold.redBright(`\n✰ Iniciando Emilia-Bot-MD ✰\n`))
 
-say('SumiBot-MD', {
+say('Emilia-MD', {
 font: 'block',
 align: 'center',
 colors: ['magentaBright']
