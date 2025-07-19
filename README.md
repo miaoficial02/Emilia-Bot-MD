@@ -1,6 +1,6 @@
-<h1 align="center">✦sᥙmі sᥲkᥙrᥲsᥲᥕᥲ✦</h1>
+<h1 align="center">𝐄𝐌𝐈𝐋𝐈𝐀-𝐁𝐎𝐓-𝐌𝐃</h1>
 
- <img src= "https://files.catbox.moe/km1exh.jpg">
+ <img src= "https://files.catbox.moe/nk37dg.jpg">
     </p>
 
 ### **`❕️ Información importante`**
