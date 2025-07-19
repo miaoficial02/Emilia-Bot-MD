@@ -1,41 +1,27 @@
-let handler = async (m, { conn, command, usedPrefix }) => {
-  let img = 'https://files.catbox.moe/92p8um.jpg'
 
-  // 1. Enviar imagen con texto (sin botones)
-  let staff = `🌸 *EQUIPO DE AYUDANTES* 🌸
-✰ *Dueño:* ${creador}
+let handler = async (m, { conn, command, usedPrefix }) => {
+let img = 'https://files.catbox.moe/nk37dg.jpg'
+let staff = `✿ *𝐄𝐐𝐔𝐈𝐏𝐎 𝐃𝐄 𝐀𝐘𝐔𝐃𝐀𝐍𝐓𝐄𝐒* ✿
+✰ *Dueño* ${creador}
 ✦ *Bot:* ${botname}
 ⚘ *Versión:* ${vs}
-❖ *Librería:* ${libreria} ${baileys}
+❖ *Libreria:* ${libreria} ${baileys}
 
 ❍ *Creador:*
 
-✿ 𝐈𝐭𝐬.𝐦𝐥𝐚.𝐨𝐟𝐢𝐜𝐢𝐚𝐥
+✿ 𝐈𝐓𝐒.𝐌𝐈𝐀.𝐎𝐅𝐈𝐂𝐈𝐀𝐋
 > 🜸 Rol » *Creador*
 > ✧ GitHub » https://github.com/miaoficial02
 
-✿ *𝐎𝐓𝐑𝐀𝐒 𝐑𝐄𝐃𝐄𝐒:* 
-📸 Instagram » sigue nuestro contenido exclusivo.`
+❒ *𝐎𝐓𝐑𝐀𝐒 𝐑𝐄𝐃𝐄𝐒 𝐒𝐎𝐂𝐈𝐀𝐋𝐄𝐒:*
 
-  await conn.sendFile(m.chat, img, 'yuki.jpg', staff.trim(), m)
-
-  // 2. Enviar mensaje con botón de Instagram por separado
-  const botonIG = {
-    text: '🌐 Seguinos en nuestras redes:',
-    footer: 'Yuki Suou | Bot Oficial ✨',
-    templateButtons: [
-      {
-        urlButton: {
-          displayText: '📸 Instagram',
-          url: 'https://instagram.com/tuperfil' // <-- cambiá esto por el tuyo real
-        }
-      }
-    ]
-  }
-
-  await conn.sendMessage(m.chat, botonIG, { quoted: m })
+ᰔ 𝐈𝐍𝐒𝐓𝐀𝐆𝐑𝐀𝐌:↓
+> 𝐌𝐢𝐚 » *𝐂𝐑𝐄𝐀𝐃𝐎𝐑𝐀*
+> ✧ 𝐋𝐈𝐍𝐊 » https://instagram.com/its.mia.oficial
+`
+await conn.sendFile(m.chat, img, 'yuki.jpg', staff.trim(), fkontak)
 }
-
+  
 handler.help = ['staff']
 handler.command = ['colaboradores', 'staff']
 handler.register = true
